@@ -43,10 +43,11 @@ body{
 }
 .logo{
     height: 14vh;
-    width: 90%;
+    width: 60%;
     background-image: url("logo.jpg");
-    background-size: cover;
-    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     flex-shrink: 0px;
     margin: 5px;
 }
@@ -60,8 +61,11 @@ body{
     border-radius: 25px;
     flex-shrink: 0px;
     flex-shrink: 0px;
-    margin: 5px:
+    margin: 5px;
 }
+.logo button:hover{
+    box-shadow: 0 0 5px orangred;
+    transform: translateY(-3px);
 
 .login i{
     color: green;
@@ -412,7 +416,7 @@ h2{
    #course2{ height: 30vh;}
    .courseimg2{ height: 65%;}
    .coursedtl2{ height: 35%;}
-   .courseb{ height: 31;}
+   .courseb{ height: 31vh;}
    #course3{ height: 30vh;}
    .courseimg3{ height: 65%;}
    .coursedtl3{ height: 35%;}
@@ -427,8 +431,16 @@ h2{
     flex-shrink: 0px;
     display: flex;
     align-items: center;
-}
+    }
+   .login{
+          flex-wrap: wrap;
+          height: auto;
+   }
    .logo{ width: 60%;
-          background-size: contain;}
+          background-size: contain;
+   }
     
+   .login button{
+          width: 120px;
+   }
 }
