@@ -432,9 +432,13 @@ h2{
     display: flex;
     align-items: center;
     }
-   .logo{ width: 60%;
-          background-size: contain;
+   .logo{
+          width: 80px;
           height: 80px;
+          background-image: url("logo.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
    }
     
    .login button{
