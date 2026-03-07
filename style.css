@@ -62,7 +62,7 @@ body{
     flex-shrink: 0px;
     margin: 5px;
 }
-.logo button:hover{
+.login button:hover{
     box-shadow: 0 0 5px orangred;
     transform: translateY(-3px);
 }
