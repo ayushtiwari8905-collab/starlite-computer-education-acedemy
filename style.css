@@ -434,7 +434,6 @@ h2{
     align-items: center;
     }
    .login{
-          flex-wrap: wrap;
           height: 120px;
    }
    .logo{ width: 60%;
