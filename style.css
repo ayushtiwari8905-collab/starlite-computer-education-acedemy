@@ -191,7 +191,7 @@ h4{
       
 .image2{
     width: 80%;
-    height: 65vh;
+    height: 70vh;
     background-image: url("ads2.jpg");
     background-size: cover;
     background-size: 100% 100%;
@@ -399,13 +399,15 @@ h2{
 }
 @media(max-width: 767px) {
    .image{ height: 45vh;}
-   .image2{ height: 40vh;}
+   .image2{ height: 35vh;}
+   .coursea{ height: 33vh;}
    #course1{ height: 30vh;}
    .courseimg1{ height: 65%;}
    .coursedtl1{ height: 35%;}
    #course2{ height: 30vh;}
    .courseimg2{ height: 65%;}
    .coursedtl2{ height: 35%;}
+   .courseb{ height: 33;}
    #course3{ height: 30vh;}
    .courseimg3{ height: 65%;}
    .coursedtl3{ height: 35%;}
