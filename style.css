@@ -391,3 +391,7 @@ h2{
    color: #94A3B8;
     }
 }
+@media(max-width: 767px) {
+   .image{ height: 50vh;}
+   .image2{ height: 50vh;}
+}
