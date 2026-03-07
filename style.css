@@ -435,7 +435,7 @@ h2{
     }
    .login{
           flex-wrap: wrap;
-          height: auto;
+          height: 120px;
    }
    .logo{ width: 60%;
           background-size: contain;
