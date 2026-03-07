@@ -66,6 +66,7 @@ body{
 .logo button:hover{
     box-shadow: 0 0 5px orangred;
     transform: translateY(-3px);
+}
 
 .login i{
     color: green;
