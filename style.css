@@ -43,7 +43,7 @@ body{
 }
 .logo{
     height: 14vh;
-    width: 9%;
+    width: 90%;
     background-image: url("logo.jpg");
     background-size: cover;
     background-size: 100% 100%;
@@ -114,7 +114,6 @@ marquee{
     background-size: 100% 100%;
     margin-top: 1%;
     z-index: -2;
-    margin-left: 5%;
 }
 
           /*   advertising part   */
@@ -423,11 +422,13 @@ h2{
 
    .item{
     height: 18vh;
-    width: 75vw;
+    width: 85vw;
     margin: 10px;
     flex-shrink: 0px;
     display: flex;
     align-items: center;
 }
+   .logo{ width: 60%;
+          background-size: contain;}
     
 }
