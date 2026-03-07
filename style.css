@@ -420,4 +420,14 @@ h2{
    #course4{ height: 30vh;}
    .courseimg4{ height: 65%;}
    .coursedtl4{ height: 35%;}
+
+   .item{
+    height: 18vh;
+    width: 75vw;
+    margin: 10px;
+    flex-shrink: 0px;
+    display: flex;
+    align-items: center;
+}
+    
 }
