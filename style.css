@@ -228,6 +228,13 @@ h2{
     align-items: center;
     justify-content: space-evenly;
 }
+.coursec{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 #course1{
     height: 48vh;
     width: 40%;
@@ -247,6 +254,12 @@ h2{
     border-radius: 25px;
 }
 #course4{
+    height: 48vh;
+    width: 40%;
+    box-shadow: 0 0 2px black;    
+    border-radius: 25px;
+}
+#course5{
     height: 48vh;
     width: 40%;
     box-shadow: 0 0 2px black;    
@@ -315,6 +328,25 @@ h2{
     border-radius: 25px;
 }
 .coursedtl4{
+    height: 25%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    p{
+        margin: 0px;
+    }
+}
+
+.courseimg5{
+    height: 75%;
+    width: 100%;
+    background-image: url("litrecy.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+.coursedtl5{
     height: 25%;
     width: 100%;
     border-radius: 25px;
