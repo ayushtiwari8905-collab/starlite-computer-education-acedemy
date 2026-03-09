@@ -191,8 +191,6 @@ h4{
 
 #heading1{
     border-bottom: 3px solid black;
-    position: relative;
-    bottom: 15px;
 }
 
        /* image 2 part */
@@ -454,6 +452,10 @@ h2{
    #course4{ height: 30vh;}
    .courseimg4{ height: 65%;}
    .coursedtl4{ height: 35%;}
+   .coursec{ height: 31vh;}
+   #course5{ height: 30vh;}
+   .courseimg5{ height: 65%;}
+   .coursedtl5{ height: 35%;}
 
    .item{
     height: 18vh;
