@@ -1,0 +1,256 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+         /*address part*/
+
+.address{
+    height: 6vh;
+    width: 100%;
+    background-color: rgba(100,100,255,1);
+    display: flex;
+    align-items: center;
+}
+.address i{
+    color: red;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.address h4{
+    color: white;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+           /*login part*/
+
+.login{
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+.item{
+    height: 18vh;
+    width: 23vw;
+    margin: 10px;
+    flex-shrink: 0px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 14vh;
+    width: 60%;
+    background-image: url("logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0px;
+    margin: 5px;
+}
+.login button{
+    background-color: orangered;
+    padding: 7px 7px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    flex-shrink: 0px;
+    margin: 5px;
+}
+.login button:hover{
+    box-shadow: 0 0 5px orangered;
+    transform: translateY(-3px);
+}
+
+.login i{
+    color: green;
+    font-size: 16px;
+    flex-shrink: 0px;                       
+}
+
+
+        /*header part*/
+
+.header{
+    height: 7vh;
+    background-color: rgba(90,90,255,1);
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+.header a{
+    color: white;
+    font-weight: 600;
+    flex-shrink: 0;
+    margin: 4%;
+    text-decoration: none;
+}
+.header a:hover{
+    border-bottom: 3px solid white;
+}
+#home{
+    border-bottom: 3px solid white;
+}
+
+       /* marquee part*/
+
+marquee{
+    background-color: rgba(0,0,0,0.8);
+    height: 6vh;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+      /*media part*/
+@media(max-width: 767px) {   
+.item{
+    height: 18vh;
+    width: 85vw;
+    margin: 10px;
+    flex-shrink: 0px;
+    display: flex;
+    align-items: center;
+    }
+   .logo{
+          width: 80px;
+          height: 80px;
+          background-image: url("logo.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+   }
+
+   .login button{
+          width: 120px;
+   }
+}
+
+        /*contect part (login)*/
+        
+ h2{
+    margin: 0px;
+    text-align: center;
+    font-weight: 700;
+}
+p{
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+    margin: 7px;
+    margin-top: 15px;
+}
+.form{
+    height: 300px;
+    width: 70%;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+input{
+   border-radius: 5px;
+   padding: 5px 10px;
+   border: 1px solid rgba(0,0,0,0.4);
+   outline: none;
+}
+input:hover{
+    outline: 2px solid skyblue;
+}
+#submit{
+    background-color: rgba(0, 106, 255, 1);
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 25px;
+}
+.footer{
+    height: 56vh;
+    width:100%vw;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #1E293B;
+    color: #CBD5E1;
+    p{ 
+        color: #A0A0A7;
+        font-size: 15px;
+        margin: 0px;
+        text-transform: none;
+        text-align: center;
+    }
+    }
+
+.footer #copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 28px;   
+}
+
+.footer #box1{
+   height: 45px;
+   width: 100%;
+   margin: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   color: white;
+   font-weight: 800;
+   text-decoration: underline 3px;
+   font-size: 18px;  
+   a{color: white;}
+}
+
+.footer #box2{
+   height: 45px;
+   width: 100%;
+   margin: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   color: white;
+   font-weight: 800;
+   text-decoration: underline 3px;
+   font-size: 18px;
+   a{ color: white; }
+}
+
+.footer #box3{
+   height: 45px;
+   width: 100%;
+   margin: 3px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 800;
+   text-decoration: underline 3px;
+   font-size: 18px;
+   a{ color: white; }
+}
+
+.footer #box4{
+   height: 45px;
+   width: 100%;
+   margin: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 5px;
+   color: #38BDF8;
+   font-weight: 800;
+
+   a{
+   font-size: 35px;
+   color: #94A3B8;
+    }
