@@ -92,9 +92,11 @@ body{
 .header a:hover{
     border-bottom: 3px solid white;
 }
-#home{
+#homehome{
     border-bottom: 3px solid white;
 }
+#homeabout{border-bottom: 3px solid white;}
+#homecourse{ border-bottom: 3px solid white;}
     
        /* marquee part*/
        
